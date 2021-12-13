@@ -1,0 +1,25 @@
+$space-base: 1rem;
+$space: (
+  1: $space-base * 0.25,//4
+  2: $space-base * 0.5,//8
+  3: $space-base * 0.75,//12
+  4: $space-base,
+  5: $space-base * 1.25,//20
+  6: $space-base * 1.5,//24
+  7: $space-base * 1.75,//28
+  8: $space-base * 2,//32
+  9: $space-base * 2.25,//36
+  10: $space-base * 2.5,//40
+  11: $space-base * 2.75,//44
+  12: $space-base * 3,//48
+);
+
+$font-base: 1rem;
+$fonts: (
+  1: $font-base * 3,//48
+  2: $font-base * 2.5,//40
+  3: $font-base * 2,//32
+  4: $font-base * 1.5,//28
+  5: $font-base * 1.25,//20
+  6: $font-base,
+);

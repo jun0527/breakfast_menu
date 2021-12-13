@@ -1,0 +1,17 @@
+@each $theme-name, $theme-colors in $themes {
+  [data-theme = #{$theme-name}] .btn-theme-primary {
+    background: map-get($theme-colors, primary);
+    color: #fff;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  @each $name, $color in $theme-colors {
+    [data-theme = #{$theme-name}] .bg-theme-#{$name} {
+      background: $color;
+    }
+    [data-theme = #{$theme-name}] .text-theme-#{$name} {
+      color: $color;
+    }
+  }
+}

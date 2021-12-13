@@ -1,0 +1,42 @@
+.d {
+  &-flex {
+    display: flex;
+  }
+}
+.flex-grow {
+  &-1 {
+    flex-grow: 1;
+  }
+}
+.jc {
+  &-between {
+    justify-content: space-between;
+  }
+  &-center {
+    justify-content: center;
+  }
+}
+.ai {
+  &-center {
+    align-items: center;
+  }
+}
+.text {
+  &-center {
+    text-align: center;
+  }
+}
+@each $name, $key in $space {
+  .me-#{$name} {
+    margin-right: $key;
+  }
+  .mb-#{$name} {
+    margin-bottom: $key;
+  }
+}
+
+@each $name, $key in $fonts {
+  .fs-#{$name} {
+    font-size: $key;
+  }
+}

@@ -1,0 +1,28 @@
+.bg-theme-primary {
+  background: #3c3c3c;
+}
+.text-theme-secondary {
+  color: #fff;
+}
+$darkTheme: (
+  primary: #3C3C3C,
+  secondary: #dfdfdf,
+);
+$grayTheme: (
+  primary: #9D9D9D,
+  secondary: #dfdfdf,
+);
+$blueTheme: (
+  primary: #46A3FF,
+  secondary: #d0e5fa,
+);
+$orangeTheme: (
+  primary: #FFA042,
+  secondary: #ffebd6,
+);
+$themes: (
+  darkTheme: $darkTheme,
+  grayTheme: $grayTheme,
+  blueTheme: $blueTheme,
+  orangeTheme: $orangeTheme,
+)

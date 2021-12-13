@@ -1,0 +1,21 @@
+.menuSearch {
+  .searchBtn {
+    width: 240px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
+.searchList {
+  li {
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+}
+.menuCalc {
+  width: 400px;
+  padding: 20px;
+  .totalArea {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+  }
+}

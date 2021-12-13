@@ -1,0 +1,39 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+body, select, input, button {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+a {
+  text-decoration: none;
+  &:hover:not(.active) {
+    opacity: 70%;
+  }
+}
+h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+main {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+select {
+  height: 35px;
+  font-size: 18px;
+  padding: 0 8px;
+  border-radius: 8px;
+  &:focus-visible {
+    outline: none;
+  }
+}
+input[type="text"] {
+  width: 240px;
+  height: 30px;
+  font-size: 16px;
+  padding: 0 8px;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
